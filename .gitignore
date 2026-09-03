@@ -1,0 +1,16 @@
+.DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+claims.json
+claims.real.json
+*.log
+*.tgz
+*.tgz.sha256
+coverage/
+.dsh/
+.toolchain/
+Instruction/
+private/
+artifacts/private/

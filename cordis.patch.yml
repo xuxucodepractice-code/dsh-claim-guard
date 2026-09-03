@@ -1,0 +1,10 @@
+- insert:
+    - id: dsh-claim-guard
+      name: dsh-claim-guard
+      config:
+        rulesPath: claims.json
+        include:
+          - "**/*.md"
+          - "**/*.mdx"
+          - "**/*.txt"
+        exclude: []

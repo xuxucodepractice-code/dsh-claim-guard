@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "options": {
+    "window": 60,
+    "caseSensitive": false
+  },
+  "blocked": [
+    {
+      "id": "synthetic-manuscript-status",
+      "match": "submitted",
+      "message": "The synthetic demo manuscript is only in preparation."
+    }
+  ],
+  "bounded": [
+    {
+      "id": "synthetic-composite-score",
+      "match": "42.5%",
+      "mustAccompany": ["synthetic benchmark", "合成示例"],
+      "message": "This invented demo value must be labelled as synthetic."
+    }
+  ]
+}
